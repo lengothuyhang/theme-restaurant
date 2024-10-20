@@ -135,12 +135,31 @@
 .body-title {
     font-family: "Great Vibes", cursive;
     color: #c5ab6b;
-    font-size: 40px;
-    line-height: 45px;
+    font-size: 60px;
+    line-height: 65px;
+    margin-bottom: 5px;
 
 }
 
 .sub-heading {
+    font-family: 'Poppins';
+    font-weight: normal;
+    color: #303030;
+    margin-bottom: 20px;
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.body-title-2 {
+    font-family: "Great Vibes", cursive;
+    color: #c5ab6b;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 5px;
+
+}
+
+.sub-heading-2 {
     font-family: 'Poppins';
     font-weight: normal;
     color: #303030;
