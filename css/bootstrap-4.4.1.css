@@ -6546,7 +6546,7 @@ a.close.disabled {
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -30px;
   left: 0;
   z-index: 15;
   display: -ms-flexbox;
@@ -6703,7 +6703,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #6c757d !important;
+  background-color: #f4f4f4;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
