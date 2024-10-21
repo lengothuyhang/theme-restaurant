@@ -1,16 +1,11 @@
-@media (max-width: 768px) {
-    .navbar-collapse {
-        background-color: #343a40 !important;
-        padding: 10px;
-    }
-}
+
 
 .home-slider {
     background-position: 50% 0px;
     opacity: 1;
     padding: 140px 0px 100px 0px;
     visibility: visible;
-    background-position: center!important;
+    background-position: center !important;
 }
 
 .home-name {
@@ -90,20 +85,55 @@
 .btn-home-slider {
     display: inline-block;
     padding: 10px 25px;
-    color: white; /* Màu chữ */
-    background-color: #c5ab6b; /* Nền nút */
-    border: 2px solid #c5ab6b; /* Viền của nút */
+    color: white;
+    /* Màu chữ */
+    background-color: #c5ab6b;
+    /* Nền nút */
+    border: 2px solid #c5ab6b;
+    /* Viền của nút */
     text-align: center;
-    text-decoration: none; /* Xóa gạch chân */
-    border-radius: 50px; /* Bo góc */
-	font-weight: 800;
-    transition: background-color 0.3s, border-color 0.3s; /* Hiệu ứng chuyển màu mượt mà */
+    text-decoration: none;
+    /* Xóa gạch chân */
+    border-radius: 50px;
+    /* Bo góc */
+    font-weight: 800;
+    transition: background-color 0.3s, border-color 0.3s;
+    /* Hiệu ứng chuyển màu mượt mà */
 }
 
 .btn-home-slider:hover {
-    background-color: white; /* Nền khi hover */
-    border-color: white; /* Viền khi hover */
-	text-decoration: none;
-	color: black;
-	font-weight: 800;
+    background-color: white;
+    /* Nền khi hover */
+    border-color: white;
+    /* Viền khi hover */
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background-color: #343a40 !important;
+        padding: 10px;
+    }
+
+    .home-welcome {
+        line-height: 49px;
+        font-size: 49px;
+    }
+
+    .home-name {
+        line-height: 45px;
+        font-size: 45px;
+    }
+
+    .home-opening {
+        line-height: 26px;
+        font-size: 26px;
+    }
+
+    .home-opening-time {
+        line-height: 24px;
+        font-size: 16px;
+    }
 }
